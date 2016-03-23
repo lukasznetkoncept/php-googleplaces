@@ -4,7 +4,7 @@
     "version":     "1.0.0",
     "type":        "library",
     "keywords":    ["google", "places", "api"],
-    "homepage":    "https://github.com/joshtronic/php-googleplaces",
+    "homepage":    "https://github.com/lukasznetkoncept/php-googleplaces",
     "license":     "MIT",
     "authors": [{
         "name":     "Josh Sherman",
