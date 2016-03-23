@@ -20,7 +20,7 @@ class GooglePlaces
     public  $radius    = null;
     public  $rankby    = 'prominence';
     public  $sensor    = false;
-    public  $types     = null;
+    public  $type     = null;
     public  $placeid   = null;
     public  $reference = null;
     public  $opennow   = null;
