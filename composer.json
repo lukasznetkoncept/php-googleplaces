@@ -1,5 +1,5 @@
 {
-    "name":        "joshtronic/php-googleplaces",
+    "name":        "lukasznetkoncept/php-googleplaces",
     "description": "PHP Wrapper for the Google Places API",
     "version":     "1.0.0",
     "type":        "library",
