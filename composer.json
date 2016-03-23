@@ -18,6 +18,6 @@
         "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
-        "psr-4": {"joshtronic\\": "src/"}
+        "psr-4": {"lukasznetkoncept\\": "src/"}
     }
 }
