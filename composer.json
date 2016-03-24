@@ -1,7 +1,7 @@
 {
     "name":        "lukasznetkoncept/php-googleplaces",
     "description": "PHP Wrapper for the Google Places API",
-    "version":     "1.1.0",
+    "version":     "1.1.1",
     "type":        "library",
     "keywords":    ["google", "places", "api","php"],
     "homepage":    "https://github.com/lukasznetkoncept/php-googleplaces",
