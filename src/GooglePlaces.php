@@ -31,7 +31,7 @@ class GooglePlaces
 
     private $exceptions = array(
         'base_url', 'client', 'exceptions', 'getmax', 'grid', 'method',
-        'output', 'pagetoken', 'response', 'sleep', 'subradius',
+        'output', 'response', 'sleep', 'subradius',
     );
 
     public function __construct($key, $client = false)
