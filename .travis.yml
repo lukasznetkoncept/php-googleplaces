@@ -20,7 +20,7 @@ before_script:
   - cd tests
 
 script:
-  - phpunit --colors --coverage-clover /home/travis/build/joshtronic/php-googleplaces/build/logs/clover.xml .
+  - phpunit --colors --coverage-clover /home/travis/build/lukasznetkoncept/php-googleplaces/build/logs/clover.xml .
 
 after_success:
   - php ../vendor/bin/coveralls --config ../.coveralls.yml -v
