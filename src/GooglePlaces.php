@@ -1,6 +1,6 @@
 <?php
 
-namespace joshtronic;
+namespace lukasznetkoncept;
 
 class GooglePlaces
 {
@@ -143,9 +143,13 @@ class GooglePlaces
             switch ($method)
             {
                 case 'nearbysearch':
-                    if (!isset($parameters['location']))
+                    if (!isset($parameters['location']) && !isset($parameters['pagetoken']))
                     {
                         throw new \Exception('You must specify a location before calling nearbysearch().');
+                    }
+                    elseif (isset($parameters['pagetoken']))
+                    {
+                        $this->pagetoken=$parameters['pagetoken'];
                     }
                     elseif (isset($parameters['rankby']))
                     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace joshtronic;
+namespace lukasznetkoncept;
 
 class GooglePlacesClient
 {
