@@ -7,8 +7,8 @@
 
 [travis]:    http://travis-ci.org/joshtronic/php-googleplaces
 [coveralls]: https://coveralls.io/r/joshtronic/php-googleplaces
-[packagist]: https://packagist.org/packages/joshtronic/php-googleplaces
-[gittip]:    https://www.gittip.com/joshtronic/
+[packagist]: https://packagist.org/packages/lukasznetkoncept/php-googleplaces
+[gittip]:    https://www.gittip.com/lukasznetkoncept/
 
 PHP Wrapper for the Google Places API.
 
@@ -35,18 +35,22 @@ The preferred installation is via `composer`. First add the following to your
 
 ```json
 "require": {
-    "joshtronic/php-googleplaces": "dev-master"
+    "lukasznetkoncept/php-googleplaces": "dev-master"
 }
 ```
-
 Then run `composer update`
+
+or  run:
+
+composer require "lukasznetkoncept/php-googleplaces"
+
 
 ## Usage
 
 ### Getting started
 
 ```php
-$google_places = new joshtronic\GooglePlaces('_YOUR_API_KEY_');
+$google_places = new lukasznetkoncept\GooglePlaces('_YOUR_API_KEY_');
 ```
 
 ### Search nearby, ranked by prominence
